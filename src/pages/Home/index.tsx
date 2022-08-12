@@ -1,10 +1,15 @@
-import { Container, Title } from "./style"
+import Apresentation from "../../components/organism/Apresentation"
+import Header from "../../components/organism/Header"
+import { ImageBackground } from "./style"
 
 const Home = () => {
     return (
-        <Container>
-            <Title>HOME</Title>
-        </Container>
+        <>
+            <ImageBackground>
+                <Header />
+                <Apresentation />
+            </ImageBackground>
+        </>
     )
 }
 

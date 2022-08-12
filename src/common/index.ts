@@ -1,4 +1,3 @@
 export const COLORS = {
-    primary_color: 'red',
-    
+    primary_color: '#6200EA'
 }

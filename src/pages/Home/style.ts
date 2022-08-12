@@ -1,10 +1,8 @@
-import { COLORS } from './../../common/index';
-import styled from 'styled-components';
+import { COLORS } from "./../../common/index";
+import styled from "styled-components";
+import { image } from "../../assets";
 
-export const Container = styled.div`
-  background: ${COLORS.primary_color};
+export const ImageBackground = styled.div`
+  background-image: url(${image.background});
+  height: 100vh;
 `;
-
-export const Title = styled.h1`
-    color: blue;
-`

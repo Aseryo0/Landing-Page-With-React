@@ -4,11 +4,12 @@ interface ButtonProps {
     background?: boolean
     fontWeight?: boolean
     colorBorder?: boolean;
+    TextColor?: boolean;
 }
-const Button = ({ nome, background, fontWeight, colorBorder }: ButtonProps) => {
+const Button = ({ nome, background, fontWeight, colorBorder, TextColor }: ButtonProps) => {
     return (
 
-        <StyledButton background={background} fontWeight={fontWeight} colorBorder={colorBorder}>
+        <StyledButton background={background} fontWeight={fontWeight} colorBorder={colorBorder} TextColor={TextColor}>
             {nome}
         </StyledButton>
     )

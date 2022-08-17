@@ -2,14 +2,14 @@ import { StyledButton } from "./style";
 interface ButtonProps {
     nome: string
     background?: boolean
-    fontWeight?: boolean
     colorBorder?: boolean;
     TextColor?: boolean;
+    id?: any;
 }
-const Button = ({ nome, background, fontWeight, colorBorder, TextColor }: ButtonProps) => {
+const Button = ({ nome, background, colorBorder, TextColor, id }: ButtonProps) => {
     return (
 
-        <StyledButton background={background} fontWeight={fontWeight} colorBorder={colorBorder} TextColor={TextColor}>
+        <StyledButton background={background} colorBorder={colorBorder} TextColor={TextColor} id={id}>
             {nome}
         </StyledButton>
     )

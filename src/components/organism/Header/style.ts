@@ -9,4 +9,7 @@ export const CardHeader = styled.header`
 export const CardButton = styled.nav`
   display: flex;
   gap: 15px;
+  #myFont {
+    font-weight: 700;
+  }
 `;

@@ -8,7 +8,7 @@ export const Header = () => {
             <img src={image.logo} alt="logo-site" />
             <CardButton>
                 <Button nome="Login" colorBorder />
-                <Button nome="Sing up" background fontWeight />
+                <Button nome="Sing up" background id="myFont"/>
             </CardButton>
         </CardHeader>
     )
